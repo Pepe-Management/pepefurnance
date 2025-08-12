@@ -72,3 +72,18 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+/* YouTube Embed Container */
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px; /* push it lower on the page */
+}
+
+.video-container iframe {
+    width: 100%;
+    max-width: 960px; /* make it big, but not too big */
+    height: 540px; /* increase height */
+    border-radius: 12px;
+    border: 2px solid #00ff7f;
+    box-shadow: 0 0 20px rgba(0, 255, 127, 0.3);
+}
