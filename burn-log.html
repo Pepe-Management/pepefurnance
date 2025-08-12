@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Burn Log — Pepefurnance</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body class="theme-pepe">
+  <header class="wrap header">
+    <a href="./" class="brand">Pepefurnance</a>
+    <nav>
+      <a href="burn-log.html">Burn Log</a>
+      <a href="wallets.html">Wallets</a>
+      <a href="policy.html">Policy</a>
+      <a href="roadmap.html">Roadmap</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <h1 class="display">Burn Log</h1>
+    <p class="lede">Append-only record of every burn. Each row links to the on-chain tx.</p>
+
+    <!-- Replace the src below with your Google Sheet "Publish to web" embed link -->
+    <div class="card" style="padding:0">
+      <iframe
+        src="https://docs.google.com/spreadsheets/d/e/2PACX-PLACEHOLDER/pubhtml?widget=true&headers=false"
+        width="100%" height="600" frameborder="0"></iframe>
+    </div>
+
+    <p class="small muted">How to verify: open any tx → From = your collection wallet, To = burn address.</p>
+  </main>
+
+  <footer class="wrap small footer">
+    <p>© <span id="yr"></span> Pepefurnance — transparency first.</p>
+  </footer>
+  <script>document.getElementById('yr').textContent=new Date().getFullYear()</script>
+</body>
+</html>
