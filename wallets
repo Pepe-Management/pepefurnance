@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Wallets — Pepefurnance</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body class="theme-pepe">
+  <header class="wrap header">
+    <a href="./" class="brand">Pepefurnance</a>
+    <nav>
+      <a href="burn-log.html">Burn Log</a>
+      <a href="wallets.html">Wallets</a>
+      <a href="policy.html">Policy</a>
+      <a href="roadmap.html">Roadmap</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <h1 class="display">Wallets</h1>
+
+    <div class="grid3">
+      <article class="card">
+        <h3>Collection Wallet (MetaMask)</h3>
+        <p><code>0x9FA6278aF6E20aA8fBBF1F347eDD5BF9B1f7032F</code></p>
+        <p><a target="_blank" rel="noopener" class="btn" href="https://etherscan.io/address/0x9FA6278aF6E20aA8fBBF1F347eDD5BF9B1f7032F">View on Etherscan</a></p>
+      </article>
+
+      <article class="card">
+        <h3>Burn Address (Ethereum)</h3>
+        <p><code>0x000000000000000000000000000000000000dEaD</code></p>
+        <p><a target="_blank" rel="noopener" class="btn" href="https://etherscan.io/address/0x000000000000000000000000000000000000dEaD">View on Etherscan</a></p>
+      </article>
+
+      <article class="card">
+        <h3>How Funds Flow</h3>
+        <ol>
+          <li>YouTube → AdSense → fiat</li>
+          <li>Exchange buys PEPE</li>
+          <li>PEPE → Collection Wallet → Burn address</li>
+        </ol>
+      </article>
+    </div>
+
+    <p class="small muted">Policy: 100% of PEPE reaching the collection wallet is burned weekly.</p>
+  </main>
+
+  <footer class="wrap small footer">
+    <p>© <span id="yr"></span> Pepefurnance</p>
+  </footer>
+  <script>document.getElementById('yr').textContent=new Date().getFullYear()</script>
+</body>
+</html>
