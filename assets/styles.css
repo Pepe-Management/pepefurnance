@@ -75,3 +75,15 @@ code{background:#0f1510; border:1px solid #1b2a1e; padding:.15rem .35rem; border
   height: auto;
   border-radius: 10px;
 }
+.pepe-image-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.pepe-furnace-img {
+  max-width: 250px; /* Change this to make bigger/smaller */
+  height: auto;
+  display: inline-block;
+}
+
+
