@@ -1,11 +1,50 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>PEPE Burn Project</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pepefurnance — Weekly PEPE Burns</title>
+  <meta name="description" content="Burning PEPE with YouTube ad revenue. Fully public, proof-first, on-chain verifiable." />
+  <link rel="stylesheet" href="/assets/styles.css" />
 </head>
-<body>
-  <h1>Welcome to the PEPE Burn Project</h1>
-  <p>This site tracks all PEPE burns funded by YouTube ad revenue.</p>
-</body>
-</html>
+<body class="theme-pepe">
+  <header class="wrap header">
+    <a href="/" class="brand">Pepefurnance</a>
+    <nav>
+      <a href="/burn.html">Burn Log</a>
+      <a href="/wallets.html">Wallets</a>
+      <a href="/policy.html">Policy</a>
+      <a href="/roadmap.html">Roadmap</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <section class="hero center">
+      <h1 class="display">Burning PEPE Weekly</h1>
+      <p class="lede">All YouTube ad revenue → buys PEPE → sent here → <strong>burned forever</strong>.<br>Everything is public and on-chain.</p>
+      <div class="cta">
+        <a class="btn btn-primary" href="/burn.html">See the Burn Log</a>
+        <a class="btn" href="/wallets.html">Verify Wallets</a>
+      </div>
+    </section>
+
+    <!-- Centered responsive YouTube embed -->
+    <section class="player center card">
+      <!-- Replace VIDEO_ID with your video id -->
+      <div class="video">
+        <iframe
+          src="https://www.youtube.com/embed/VIDEO_ID"
+          title="Pepefurnance Intro"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+        </iframe>
+      </div>
+      <p class="muted small">Tip: Upload a short explaining the burn + add Etherscan links in the description.</p>
+    </section>
+
+    <section class="grid3">
+      <article class="card">
+        <h3>Latest Burn Total</h3>
+        <p>Track totals and every transaction in the <a href="/burn.html">Burn Log</a>.</p>
+      </art
