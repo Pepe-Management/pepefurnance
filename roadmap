@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Roadmap — Pepefurnance</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body class="theme-pepe">
+  <header class="wrap header">
+    <a href="./" class="brand">Pepefurnance</a>
+    <nav>
+      <a href="burn-log.html">Burn Log</a>
+      <a href="wallets.html">Wallets</a>
+      <a href="policy.html">Policy</a>
+      <a href="roadmap.html">Roadmap</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <h1 class="display">Roadmap</h1>
+    <ol class="card" style="text-align:left">
+      <li><strong>Weeks 1–2:</strong> Manual weekly burns + public logs.</li>
+      <li><strong>Week 3:</strong> Add exchange API automation (buy + withdraw to wallet).</li>
+      <li><strong>Week 4:</strong> Optional Gnosis Safe + Dune dashboard.</li>
+      <li><strong>Ongoing:</strong> Publish CSV & changelog in repo; respond to community requests.</li>
+    </ol>
+  </main>
+
+  <footer class="wrap small footer">
+    <p>© <span id="yr"></span> Pepefurnance</p>
+  </footer>
+  <script>document.getElementById('yr').textContent=new Date().getFullYear()</script>
+</body>
+</html>
