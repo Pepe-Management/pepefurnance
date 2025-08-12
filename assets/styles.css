@@ -65,3 +65,13 @@ code{background:#0f1510; border:1px solid #1b2a1e; padding:.15rem .35rem; border
     radial-gradient(1200px 600px at 50% -10%, rgba(0,255,127,.14), transparent),
     radial-gradient(800px 400px at 90% 10%, rgba(0,255,127,.08), transparent);
 }
+.pepe-image-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.pepe-furnace-img {
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
