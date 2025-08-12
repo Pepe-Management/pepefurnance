@@ -61,14 +61,15 @@ code{background:#0f1510; border:1px solid #1b2a1e; padding:.15rem .35rem; border
 
 /* ====== Background accent ====== */
 /* Stop the green glow background from repeating on long pages */
-.theme-pepe{
-  background-color:#0d0d0d; /* base fill */
+.theme-pepe {
+  background-color: #0d0d0d; /* base fill */
   background-image:
     radial-gradient(1200px 600px at 50% -10%, rgba(0,255,127,.14), transparent),
     radial-gradient(800px 400px at 90% 10%, rgba(0,255,127,.08), transparent);
-  background-repeat: no-repeat, no-repeat;        /* <— key line */
-  background-size: 1600px 800px, 1200px 600px;    /* size each glow */
-  background-position: 50% -10%, 90% 10%;         /* place each glow */
+  background-repeat: no-repeat, no-repeat; /* stop repeating */
+  background-size: cover; /* stretch to cover entire screen */
+  background-position: 50% -10%, 90% 10%; /* place each glow */
+  background-attachment: fixed; /* keep fixed on scroll */
 }
 .pepe-image-container {
   text-align: center;
